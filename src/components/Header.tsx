@@ -22,13 +22,11 @@ export const Header = () => {
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">V</span>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-foreground">VIETAD</h1>
-              <p className="text-xs text-muted-foreground">SIGNS</p>
-            </div>
+            <img 
+              src="/lovable-uploads/6e22b46b-1e5f-4d47-aa19-466e5459aa77.png" 
+              alt="VietAd Logo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Search */}
